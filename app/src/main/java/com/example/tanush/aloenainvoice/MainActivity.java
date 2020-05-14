@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
         adapter = new InvoiceAdapter(options);
 
+        
         RecyclerView recyclerView = findViewById(R.id.recyclerview);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
